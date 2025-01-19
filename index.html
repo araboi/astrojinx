@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AstroJinx</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <style>
+     body {
+        margin: 0;
+        background: linear-gradient(to bottom, #0B0B3B, #4B0082);
+        font-family: 'Arial', sans-serif;
+     }
+     
+     .menu-container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        z-index: 1000;
+     }
+
+     .game-title {
+        font-size: 72px;
+        color: #FFD700;
+        text-shadow: 0 0 10px #FFA500;
+        margin-bottom: 50px;
+        animation: glow 2s ease-in-out infinite;
+     }
+
+     .menu-button {
+        background: rgba(255, 255, 255, 0.1);
+        border: 2px solid #FFD700;
+        color: #FFD700;
+        padding: 15px 40px;
+        font-size: 24px;
+        margin: 10px;
+        cursor: pointer;
+        border-radius: 30px;
+        transition: all 0.3s ease;
+     }
+
+     .menu-button:hover {
+        background: #FFD700;
+        color: #0B0B3B;
+        transform: scale(1.1);
+     }
+
+     @keyframes glow {
+        0% { text-shadow: 0 0 10px #FFA500; }
+        50% { text-shadow: 0 0 20px #FFA500, 0 0 30px #FF4500; }
+        100% { text-shadow: 0 0 10px #FFA500; }
+     }
+    </style>
+</head>
+<body>
+    <div class="world" id="world"></div>
+    <div class="menu-container" id="menuContainer">
+        <h1 class="game-title">AstroJinx</h1>
+         <!-- ></button> -->
+          <a href="star.html" class="menu-button" id="startButton">Start Game</a>
+
+          <a href="credits.html" class="menu-button" id="creditsButton">Credits</a>
+        <br>
+      
+    </div>
+    
+    </div>
+</body>
+</html>

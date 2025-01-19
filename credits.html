@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AstroJinx - Credits</title>
+    <style>
+        body {
+            margin: 0;
+            background: linear-gradient(45deg, #0B0B3B, #4B0082);
+            font-family: 'Arial', sans-serif;
+            color: #FFD700;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .credits-content {
+            text-align: center;
+            padding: 40px;
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 20px;
+            border: 2px solid #FFD700;
+            max-width: 600px;
+        }
+
+        .studio-name {
+            font-size: 48px;
+            margin-bottom: 20px;
+            text-shadow: 0 0 15px #FFA500;
+            animation: glow 2s infinite;
+        }
+
+        .creator-name {
+            font-size: 32px;
+            color: #FF4500;
+            margin: 20px 0;
+        }
+
+        .credits-text {
+            font-size: 18px;
+            line-height: 1.6;
+            margin: 20px 0;
+            color: #E6E6FA;
+        }
+
+        .back-link {
+            display: inline-block;
+            background: rgba(255, 215, 0, 0.2);
+            border: 2px solid #FFD700;
+            color: #FFD700;
+            padding: 10px 30px;
+            font-size: 20px;
+            border-radius: 25px;
+            transition: all 0.3s ease;
+            margin-top: 20px;
+            text-decoration: none;
+        }
+
+        .back-link:hover {
+            background: #FFD700;
+            color: #0B0B3B;
+            transform: scale(1.1);
+        }
+
+        @keyframes glow {
+            0% { text-shadow: 0 0 10px #FFA500; }
+            50% { text-shadow: 0 0 20px #FFA500, 0 0 30px #FF4500; }
+            100% { text-shadow: 0 0 10px #FFA500; }
+        }
+    </style>
+</head>
+<body>
+    <div class="credits-content">
+        <div class="studio-name">Miguel'O'Hara Studios</div>
+        <div class="creator-name">Araniseoluwa Oladipo</div>
+        <div class="creator-name">&</div>
+        <div class="creator-name">MARGIN</div>
+        <p class="credits-text">
+            Lead Developer & Creative Director<br>
+           MIGUEL'O'HARA STUDIOS
+        </p>
+        <p class="credits-text">
+            "Creating universes where imagination knows no bounds,<br>
+            where every pixel tells a story, and every frame captures magic."
+        </p>
+        <p class="credits-text">
+            AstroJinx © 2024<br>
+            Crafted with passion and powered by Three.js
+        </p>
+        <a href="index.html" class="back-link">Return to Menu</a>
+    </div>
+</body>
+</html>
